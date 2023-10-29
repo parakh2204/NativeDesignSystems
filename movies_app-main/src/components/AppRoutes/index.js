@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MovieTab from '../movieTab/index'
 import MovieDetail from '../movieTab/MovieDetail'
-function AppRoutes() {
+const AppRoutes = () => {
   return (
     <>
       <Router>
