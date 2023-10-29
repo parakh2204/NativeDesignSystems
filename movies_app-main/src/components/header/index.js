@@ -14,7 +14,7 @@ function Example(args) {
         {...args}
         className="navbar navbar-expand-lg navbar-light bg-light"
       >
-        <NavbarBrand href="/my-app">Movies Data Application</NavbarBrand>
+        <NavbarBrand href="/my-app">Movie Data Application</NavbarBrand>
         <NavbarText>
           <FontAwesomeIcon icon={faUser} style={{ paddingRight: "10px" }} />
           User Profile
