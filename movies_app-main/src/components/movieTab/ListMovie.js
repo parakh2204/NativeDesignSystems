@@ -14,7 +14,7 @@ export default function ListMovie(props) {
       },
     };
     const response = await fetch(fetchUrl, fetchOptions).then((response) => {
-      return response.json();
+      return response ? response.json(): '';
     });
     setMoviesList(response.items[0].fields.moviesData);
   };
